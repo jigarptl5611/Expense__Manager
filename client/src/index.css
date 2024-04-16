@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 100%;
+}
+
+/* transection page */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+  margin-bottom: 10px;
+}
+/* transection page */
+
+/* antd icons */
+
+.switch-icons {
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+.inactive-icon {
+  color: gray;
+}
+
+.filter-tab .ant-select-selector {
+  width: 150px !important;
+}
+/* .resgister-page{
+  background-image: url("C:\Users\admin\Downloads\Expense_Management-master\client\public\expenseimage.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+
+} */
+.fullscreen-image {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fullscreen-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.loginim{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    /* background-color: rgba(39, 30, 30, 0.8); */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+.registerim{
+  position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+
+
+}
+ 
+.h2{
+  padding-top: 5px;
+  padding-bottom: 50px;
+  font-family: cursive;
+  font-weight: bolder;
+  /* font-family: fantasy; */
+
+}
+
+
+button{
+  margin-left: 10px;
+}
+.footer{
+  background-color:#FFE5E5;
+  text-align: center;
+  color:black;
+  padding: 1%;
+  margin-top: 160px;
+}
+
+.navbar {
+  background-color:#756AB6;
+
+}
+/* .content{
+  background-color: #E0AED0;
+} */
+.profile-icon{
+  width: 30px;  
+  height: 30px; 
+  border-radius: 50%; 
+  margin-right: 5px; 
+  margin-top: 5px;
+  
+}
+.money-management-icon{
+  width: 50px;  
+  height: 50px; 
+  margin: 1px 20px 0 10px;
+
+}
